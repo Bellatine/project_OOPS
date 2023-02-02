@@ -36,6 +36,10 @@ public class ReadDataHandle {
         King king = new King(array[0],array[1],array[2],capital,array[4],array[5],array[6]);
         LoadCache.lyKing.add(king);
     }
+
+
+
+
     public void ReadLyKings() throws IOException {
         File fileDir = new File("/Users/hh/Documents/CODE/TEST/oops_project/Data/"+Constant.lyKingFileName);
         FileInputStream fileInputStream = new FileInputStream(fileDir);
