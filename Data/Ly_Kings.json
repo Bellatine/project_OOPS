@@ -1,0 +1,80 @@
+[
+{
+	"Concept": "http://dbpedia.org/resource/Lý_Cao_Tông",
+	"callret-1": "Lý Long Trát or Lý Long Cán@en",
+	"callret-2": "1173-07-06^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1210-11-15^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Lý Cao Tông@en",
+	"callret-5": "1175^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1175^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Lý_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lý_Anh_Tông",
+	"callret-9": "http://dbpedia.org/resource/Lý_Huệ_Tông"
+}, {
+	"Concept": "http://dbpedia.org/resource/Lý_Thần_Tông",
+	"callret-1": "Lý Dương Hoán@en",
+	"callret-2": "1116^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-3": "1138-10-31^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Lý Thần Tông@en",
+	"callret-5": "1128^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1138^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Lý_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lý_Nhân_Tông",
+	"callret-9": "http://dbpedia.org/resource/Lý_Anh_Tông"
+}, {
+	"Concept": "http://dbpedia.org/resource/Lý_Thái_Tông",
+	"callret-1": "Lý Phật Mã@en",
+	"callret-2": "1000-07-29^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1054-11-03^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Lý Thái Tông@en",
+	"callret-5": "1028^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1028^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Lý_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lý_Thái_Tổ",
+	"callret-9": "http://dbpedia.org/resource/Lý_Thánh_Tông"
+}, {
+	"Concept": "http://dbpedia.org/resource/Lý_Anh_Tông",
+	"callret-1": "Lý Thiên Tộ@en",
+	"callret-2": "4^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-3": "1175-08-14^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Lý Anh Tông@en",
+	"callret-5": "1138^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1175^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Lý_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lý_Thần_Tông",
+	"callret-9": "http://dbpedia.org/resource/Lý_Cao_Tông"
+}, {
+	"Concept": "http://dbpedia.org/resource/Lý_Nhân_Tông",
+	"callret-1": "Lý Càn Đức@en",
+	"callret-2": "1066-02-22^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1128-01-15^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Lý Nhân Tông@en",
+	"callret-5": "1072^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1072^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Lý_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lý_Thánh_Tông",
+	"callret-9": "http://dbpedia.org/resource/Lý_Thần_Tông"
+}, {
+	"Concept": "http://dbpedia.org/resource/Lý_Thái_Tổ",
+	"callret-1": "Lý Công Uẩn@en",
+	"callret-2": "0974-03-08^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1028-03-31^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Lý Thái Tổ@en",
+	"callret-5": "1009^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1028^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Lý_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lê_Long_Đĩnh",
+	"callret-9": "http://dbpedia.org/resource/Lý_Thái_Tông"
+}, {
+	"Concept": "http://dbpedia.org/resource/Lý_Huệ_Tông",
+	"callret-1": "Lý Sảm  or Lý Hạo Sảm@en",
+	"callret-2": "July 1194@en",
+	"callret-3": "1226-09-03^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Lý Huệ Tông@en",
+	"callret-5": "1210^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1210^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Lý_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lý_Cao_Tông",
+	"callret-9": "http://dbpedia.org/resource/Lý_Chiêu_Hoàng"
+}
+]

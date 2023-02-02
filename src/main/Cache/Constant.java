@@ -12,8 +12,9 @@ public class Constant {
     public static String leDynasty;
 
     public static String configFileDir;
-    public static String kingFileName = "Kings.txt";
-    public static String dynastyFileName ="Dynastys.txt";
+    public static String lyKingFileName = "Ly_Kings.json";
+    public static String tranKingFileName = "Tran_Kings.json";
+    public static String dynastyFileName ="Dynastys.json";
 
 
 }

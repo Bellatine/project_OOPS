@@ -37,7 +37,7 @@ public class ReadDataHandle {
         LoadCache.lyKing.add(king);
     }
     public void ReadLyKings() throws IOException {
-        File fileDir = new File("/Users/hh/Documents/CODE/TEST/oops_project/Data/"+Constant.kingFileName);
+        File fileDir = new File("/Users/hh/Documents/CODE/TEST/oops_project/Data/"+Constant.lyKingFileName);
         FileInputStream fileInputStream = new FileInputStream(fileDir);
         InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, "UTF8");
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);

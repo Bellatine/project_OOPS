@@ -1,0 +1,91 @@
+[
+{
+	"callret-0": "14587828^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Cảnh@en",
+	"callret-2": "1218-07-17^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1277-05-05^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Trần Thái Tông@en",
+	"callret-5": "1226^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1258^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_Dynasty",
+	"callret-8": "http://dbpedia.org/resource/Lý_Chiêu_Hoàng",
+	"callret-9": "http://dbpedia.org/resource/Trần_Thánh_Tông"
+}, {
+	"callret-0": "25161015^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Thuyên@en",
+	"callret-2": "1276-09-17^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1320-12-12^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Trần Anh Tông@en",
+	"callret-5": "1293^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1293^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_dynasty",
+	"callret-8": "http://dbpedia.org/resource/Trần_Nhân_Tông",
+	"callret-9": "http://dbpedia.org/resource/Trần_Minh_Tông"
+}, {
+	"callret-0": "9534993^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Khâm@en",
+	"callret-2": "1258-12-07^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1308-12-16^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Trần Nhân Tông@en",
+	"callret-5": "1278^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1278^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_dynasty",
+	"callret-8": "http://dbpedia.org/resource/Trần_Thánh_Tông",
+	"callret-9": "http://dbpedia.org/resource/Trần_Anh_Tông"
+}, {
+	"callret-0": "25166792^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Vượng@en",
+	"callret-2": "1319-05-17^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1341-06-11^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Trần Hiến Tông@en",
+	"callret-5": "1329^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1341^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_dynasty",
+	"callret-8": "http://dbpedia.org/resource/Trần_Minh_Tông",
+	"callret-9": "http://dbpedia.org/resource/Trần_Dụ_Tông"
+}, {
+	"callret-0": "25162207^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Mạnh@en",
+	"callret-2": "1300-09-04^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1357-03-10^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Trần Minh Tông@en",
+	"callret-5": "1314^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1314^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_dynasty",
+	"callret-8": "http://dbpedia.org/resource/Trần_Anh_Tông",
+	"callret-9": "http://dbpedia.org/resource/Trần_Hiến_Tông"
+}, {
+	"callret-0": "25194775^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Kính@en",
+	"callret-2": "1337-06-30^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1377-03-04^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Trần Duệ Tông@en",
+	"callret-5": "1373^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1373^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_dynasty",
+	"callret-8": "http://dbpedia.org/resource/Trần_Nghệ_Tông",
+	"callret-9": "http://dbpedia.org/resource/Trần_Phế_Đế"
+}, {
+	"callret-0": "9535094^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Hoảng@en",
+	"callret-2": "1240-10-12^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1290-07-03^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "Trần Thánh Tông@en",
+	"callret-5": "0030^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "0030^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_dynasty",
+	"callret-8": "http://dbpedia.org/resource/Trần_Thái_Tông",
+	"callret-9": "http://dbpedia.org/resource/Trần_Nhân_Tông"
+}, {
+	"callret-0": "25202605^^http://www.w3.org/2001/XMLSchema#integer",
+	"callret-1": "Trần Hiện@en",
+	"callret-2": "1361-03-06^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-3": "1388-12-06^^http://www.w3.org/2001/XMLSchema#date",
+	"callret-4": "陳廢帝@en",
+	"callret-5": "1377^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-6": "1377^^http://www.w3.org/2001/XMLSchema#gYear",
+	"callret-7": "http://dbpedia.org/resource/Trần_dynasty",
+	"callret-8": "http://dbpedia.org/resource/Trần_Duệ_Tông",
+	"callret-9": "http://dbpedia.org/resource/Trần_Thuận_Tông"
+}
+]

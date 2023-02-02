@@ -49,21 +49,26 @@ public class CrawlDataHandle {
     public Vector<String> ExportToString(ResultSet result){
         Vector<String> list = new Vector<>();
         List<String> column = result.getResultVars();
+        list.add("[\n");
         try {
             while (result.hasNext()){
                 StringBuilder stringBuilder = new StringBuilder();
                 QuerySolution querySolution = result.nextSolution();
-                for(int i=0;i<column.size();i++){
+                stringBuilder.append("{\n\t");
+                for(int i=0;i<column.size();i++) {
                     String columnName = column.get(i);
                     RDFNode node = querySolution.get(columnName);
-                    stringBuilder.append(node.toString());
+                    stringBuilder.append("\""+columnName+"\"")
+                            .append(": \""+node.toString()+"\"");
+
                     //Resource resource = node.asResource();
                     //System.out.println(node.toString()+ "---" +resource.getLocalName() + "---" + resource.getNameSpace() + "---" + resource.getURI() );
-                    if(i==column.size()-1)
-                        stringBuilder.append('\n');
+                    if (i == column.size() - 1)
+                        stringBuilder.append("\n}");
                     else
-                        stringBuilder.append(Constant.split);
+                        stringBuilder.append(",\n\t");
                 }
+                stringBuilder.append(", ");
                 list.add(stringBuilder.toString());
             }
         }catch (Exception e){
@@ -77,11 +82,15 @@ public class CrawlDataHandle {
             if(!file.exists()){
                 file.createNewFile();
             }
-            FileWriter fileWriter = new FileWriter(file.getAbsoluteFile(),true);
+            FileWriter fileWriter = new FileWriter(file.getAbsoluteFile(),false);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            int dem = 0;
             Enumeration<String> enumeration = list.elements();
             while(enumeration.hasMoreElements()){
+                dem ++;
                 String str = enumeration.nextElement();
+                if(dem == list.size())
+                    str = str.substring(0,str.length()-2) + "\n]";
                 bufferedWriter.write(str);
             }
             bufferedWriter.close();
@@ -108,9 +117,9 @@ public class CrawlDataHandle {
         Constant.configFileDir = configFileDir;
         CrawlDataHandle crawlDataHandle = new CrawlDataHandle();
         crawlDataHandle.loadConf();
-        //crawlDataHandle.CrawlData(Constant.lyKing,Constant.kingFileName);
-        crawlDataHandle.CrawlData(Constant.tranKing,Constant.kingFileName);
-        //crawlDataHandle.CrawlData(Constant.lyDynasty,Constant.dynastyFileName);
+        crawlDataHandle.CrawlData(Constant.lyKing,Constant.lyKingFileName);
+        crawlDataHandle.CrawlData(Constant.tranKing,Constant.tranKingFileName);
+        crawlDataHandle.CrawlData(Constant.lyDynasty,Constant.dynastyFileName);
 
     }
 }
